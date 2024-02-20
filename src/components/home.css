@@ -1,0 +1,448 @@
+.div-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  mix-blend-mode: color-burn;
+
+}
+
+/* Floating-Icons */
+.floating-icons {
+  width: 200px;
+  position: absolute;
+  top: 20rem;
+  left: 97.9%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ position: fixed;
+ z-index: 99;
+}
+
+
+/* ######Important how to target the span inside div ###### */
+.floating-icons span:hover {
+  transform: translateX(-55%); 
+  transition: all ease-in-out .3s;
+  background-color: #000;
+  color: #fff;
+}
+
+.sp-1-float{
+  display: flex;
+  vertical-align: middle;
+  width: 150px;
+  background-color: #ef0c0c;
+  padding: 5px;
+  align-items:center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius:30px;
+  gap: 20px;
+}
+
+
+
+.sp-2-float{
+  display: flex;
+  vertical-align: middle;
+  width: 150px;
+  background-color: #073bf6;
+  padding: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius:30px;
+  align-items:center;
+  gap: 20px;
+}
+
+.sp-3-float{
+  display: flex;
+  vertical-align: middle;
+  width: 150px;
+  background-color: #4b4141;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius:30px;
+  padding: 5px;
+  align-items:center;
+  gap: 20px;
+}
+
+
+.h1-div1 {
+  position: absolute;
+  color: rgb(250, 41, 4);
+  top: 23rem;
+  font-weight: 600;
+  font-size: 5rem;
+  left: 10rem;
+  margin: auto;
+  line-height: 90px;    
+}
+
+
+
+.p-div1 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 28rem;
+  left: 10rem;
+  margin: 10px;
+  line-height: 90px;
+  line-height: 20px;
+
+}
+
+.loader {
+  width: 288px;
+  position: absolute;
+  top: 45px;
+  left: 48rem;
+
+}
+
+.loader {
+  width: 288px;
+  position: absolute;
+  top: 45px;
+  left: 48rem;
+  display: block;
+  --height-of-loader: 4px;
+  --loader-color: rgb(156, 4, 156);
+  height: var(--height-of-loader);
+  border: none;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 30px;
+  animation: moving 1s ease-in-out infinite;
+  ;
+}
+
+@keyframes moving {
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+    right: 0;
+    left: unset;
+  }
+}
+
+.p-div2 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 30rem;
+  left: 10rem;
+  margin: 10px;
+  line-height: 90px;
+  line-height: 20px;
+}
+
+.span-div1 {
+  color: rgb(249, 252, 250);
+  margin: auto;
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* content  */
+
+.text-home-div-3 {
+  position: absolute;
+  top: 55rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  height: 130px;
+  color: #fff;
+  width: 95%;
+  
+  /* background-color: rgb(70, 56, 56); */
+
+  /* From https://css.glass */
+  background: rgba(115, 109, 109, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.84);
+
+}
+
+.h3-main-div {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin: inherit;
+}
+
+/* Button */
+
+.button2-home {
+  background-color: #fb0330;
+  position: absolute;
+  top: 34rem;
+  left: 12rem;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.button2-home:hover {
+  background-color: linear-gradient(top blue, left pink);
+  color: #140202;
+}
+
+/* Main card */
+
+.div-1-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #010911;
+  height: 80vh;
+  margin-top: -46px;
+  color: #f6f5f5;
+  /* background-color: #e5e5f7;. */
+  /* opacity: 0.9; */
+
+
+}
+
+
+.div-h1-text-1 {
+  width: 414px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+  padding: 20px;
+  gap: 60px;
+  /* overflow: hidden; */
+  --dot-bg: black;
+  --dot-color: white;
+  --dot-size: 1px;
+  --dot-space: 22px;
+
+
+}
+
+
+
+
+.div-1-main p {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-card-1 {
+  height: 350px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: #e90a0a;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 50px;
+  background-color: none;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 8px 8px 5px #a8a8a8,
+    -8px -8px 5px #ffffff;
+
+}
+
+/* chat - bot */
+
+
+/* Photo div  */
+.div-card-photos {
+  /* Center photos and text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Adjust height as needed */
+  width: 90%;
+  gap: 90px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.photo1-div-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ margin-top: 200px;
+  height: 400px; /* Adjust height as needed */
+  width: 350px;
+  object-fit: cover;
+  background-color: #a8a8a8;
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out; 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.photo1-div-second:hover {
+  opacity: 1;
+  transform: translate scale(1.2);
+
+}
+
+.span-text-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  opacity: 0; /* Initially hide text */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transitions for opacity and transform */
+  transform: translateY(100%); /* Start text offscreen at the bottom */
+  background-color: #ef0c32;
+  padding: auto;
+}
+
+.div-card-photos span:hover .span-text-cards {
+  opacity: 1;
+  transform: translateY(0); /* Slide text up smoothly on hover */
+}
+
+/* Responsiveness (optional) */
+@media (max-width: 768px) {
+  .div-card-photos {
+    gap: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .div-card-photos {
+    gap: 20px;
+  }
+}
+
+/* marquee */
+
+
+
+/* scroll image */
+.sc-main-div{
+  height: 80px;
+  width: 80px;
+  margin-right: 70px;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.h3-main-div:hover{
+  transform: scale(1.2);
+
+}
+.sc-main-div:hover{
+  transform: scale(1.2);
+}
+
+/* final-div-conatiner */
+
+.final-div-conatiner{
+  background-color:#010911;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* margin: auto; */
+  margin-top: auto;
+  
+  
+}
+
+
+.final-image1{
+  height:400px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: 60px;
+  object-fit: contain;
+  margin: auto;
+  object-fit: fill;
+  box-shadow: -47px 21px 48px -61px #f2f2f2;
+  animation: scroll 3s ease-in-out;
+}
+.final-image2{
+  height:400px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: 60px;
+  object-fit: contain;
+  margin: auto;
+  object-fit: fill;
+  box-shadow: -47px 21px 48px -61px #f2f2f2;
+  animation: scroll 3s ease-in-out;
+}
+/* @keyframes scroll {
+  0%{
+    transform: translate(0%);
+  }
+  50%{
+    transform: translate(100%);
+  }
+} */
+
+.final-image-text{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  margin-bottom: 80px;
+   margin: auto;
+  color: #b09292;
+  z-index: 1;
+  
+}
+.heading-welcome{
+  position: absolute;
+  color: #fff;
+}
+
+.foo-1{
+  background-color:#154c79;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 3;
+  color: #fff;
+  vertical-align: middle;
+  gap: 50px;
+
+}
+
