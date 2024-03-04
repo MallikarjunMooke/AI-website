@@ -3,21 +3,21 @@
     /* margin: 0; */
     /* padding: 0; */
 }
-.navbar-div{
-position: static;
-}
+
+
 .navbar-div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    height: 180px;
+    height: 80px;
     position: relative;
-    padding: 40px;
-    z-index: 99;
-    
+    z-index: 1;
+   background-color: #5568b3;
 }
+
+
 
 a {
     display: flex;
@@ -30,15 +30,27 @@ a {
     height: 18px;
     padding: 12px;
     width: 120px;
+    color:#000;
 }
 
-a:hover {
-    /* border-radius: 10px;
-    background-color: rgb(250, 0, 0); */
+.nav-hover:hover {
+    background-color: #0840f7;
+    border-radius: 30px;
+    color: #fff;
+
 
 }
 
-.ul-div-1{
+.logo-conatiner{
+    height: 100px;
+    width: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80px;
+}
+
+.ul-div-1 {
     display: flex;
 }
 
@@ -52,39 +64,41 @@ ul li {
     /*  */
     flex-direction: column;
 
-    
-    }
+
+}
 
 /* Dropdowns code */
 
 
 .dp-1 {
-   position: absolute;
-  width: 95%;
-  height: 100%;
-  top: 12em;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: all .2s linear;
-  margin: 45px;
-  padding: 0px;
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    top: 12em;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s linear;
+    margin: 45px;
+    padding: 0px;
 }
-   
 
 
 
-.ul-1  .p-1-dp:hover{
+
+.ul-1 .p-1-dp:hover {
     color: #cec1c1;
 }
-.ul-1 p:hover{
+
+.ul-1 p:hover {
     color: #f70808;
 }
+
 .dp-2 {
-    background-color:#fff;
+    background-color: #fff;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
     padding: 15px;
     justify-content: center;
@@ -95,10 +109,10 @@ ul li {
     /* transform: translateX(-50%); */
     z-index: 99;
     grid-template-columns: repeat(3, 1fr);
-    
-  border-bottom-left-radius: 20px;
-  
-  border-bottom-right-radius: 20px;
+
+    border-bottom-left-radius: 20px;
+
+    border-bottom-right-radius: 20px;
 }
 
 

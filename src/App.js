@@ -1,5 +1,6 @@
 
 import './App.css';
+import 'animate.css';
 import { Routes, Route  } from "react-router-dom";
 import Support  from './components/Support';
 import Index1 from './components/Index1';
@@ -12,8 +13,9 @@ import Home from './components/Home'
 
 function App() {
   return (
+    
     <div className="App">
-      
+
           <Index1/>
         <Routes>
  
