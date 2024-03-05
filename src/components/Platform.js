@@ -198,7 +198,7 @@ const Platform = () => {
       scale: 12,
       scrub: 2,
       rotate: "-50deg",
-      
+
     })
 
     tl1.to(".scroll-span-1", {
@@ -213,7 +213,7 @@ const Platform = () => {
       scale: 12,
       scrub: 2,
       rotate: "50deg",
-      
+
     })
 
 

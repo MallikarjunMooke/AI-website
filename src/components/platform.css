@@ -5,9 +5,6 @@
 
 }
 
-
-
-
 .human-main-div {
     height: 120vh;
     width: 100%;
@@ -16,9 +13,6 @@
     z-index: -1;
     position: relative;
     background-color: #f6f6f6;
-
-
-
 }
 
 .human-text {
@@ -65,8 +59,6 @@
     font-size: 1.3em;
     padding: 20px;
     width: 70%;
-
-
 }
 
 .para-main-div-two-2 {
@@ -155,8 +147,6 @@
 
 }
 
-/* kjd */
-
 .joy-main {
     height: 60%;
     width: 100%;
@@ -202,6 +192,7 @@
 
 
 /* last div */
+
 .my-h2-element {
     font-weight: 900;
     font-size: 4em;
@@ -233,10 +224,6 @@
     position: sticky;
     top: 0px;
 }
-
-
-
-
 .scroll-span {
     /* background-color: rgb(30, 35, 35); */
     width: 80%;
@@ -245,9 +232,6 @@
     flex-direction: column;
     flex: 1;
     border-radius: 40px;
-
-
-
 }
 
 .scroll-span img {
@@ -258,9 +242,6 @@
     border-radius: 40px;
     transform: rotate(20deg);
 }
-
-
-
 .scroll-span-2 {
     /* background-color: rgb(201, 70, 18); */
     width: 80%;
