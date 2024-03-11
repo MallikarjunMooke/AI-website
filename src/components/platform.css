@@ -224,6 +224,7 @@
     position: sticky;
     top: 0px;
 }
+
 .scroll-span {
     /* background-color: rgb(30, 35, 35); */
     width: 80%;
@@ -242,6 +243,7 @@
     border-radius: 40px;
     transform: rotate(20deg);
 }
+
 .scroll-span-2 {
     /* background-color: rgb(201, 70, 18); */
     width: 80%;

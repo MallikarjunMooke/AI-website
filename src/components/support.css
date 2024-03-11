@@ -1,0 +1,117 @@
+.full-div {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(246, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0vh;
+    position: relative;
+}
+
+.card {
+    /* background-color: rgb(69, 64, 64); */
+    border-radius: 10px;
+    padding: 20px;
+    width: 750px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    margin: auto;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15.5px );
+-webkit-backdrop-filter: blur( 15.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-weight: 900;
+  
+    color: #fff;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group {
+    position: relative;
+    margin-top: 20px;
+}
+
+.form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+
+
+.form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+    width: 100%;
+    background-color: transparent;
+}
+
+.form .group TextField:placeholder-shown+label,
+.form .group textarea:placeholder-shown+label {
+    top: 10px;
+    background-color: transparent;
+}
+
+.form .group TextField:focus,
+.form .group textarea:focus {
+    border-color: #3366cc;
+}
+
+.form .group TextField:focus+label,
+.form .group textarea:focus+label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #3366cc;
+    font-weight: 600;
+    font-size: 14px;
+   
+}
+
+.form .group textarea {
+    resize: none;
+    height: 100px;
+   resize: both;
+}
+
+.form button {
+    background-color: #3366cc;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 14px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.form button:hover {
+    background-color: #27408b;
+}

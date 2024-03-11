@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EastOutlinedIcon from '@mui/icons-material/EastOutlined';
 import './home.css'
-import { Footer } from './footer';
+// import { Footer } from './footer';
 import ChatBot from 'react-simple-chatbot';
 import photo1 from '../assets/p1.jpg';
 import photo2 from '../assets/p2.jpg';
@@ -128,7 +128,7 @@ function Home() {
 
        
       </div>
-    <Footer/>
+    {/* <Footer/> */}
 
 
 

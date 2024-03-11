@@ -1,0 +1,231 @@
+#main-service-div {
+  background-color: rgb(4, 13, 13);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  height: 128vh;
+  width: 100%;
+
+}
+
+.service-second-div {
+  position: absolute;
+  margin-top: 80px;
+  color: #fff;
+  font-weight: 700;
+  font-size: larger;
+  z-index: 1;
+
+}
+
+.service-cards {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  height: 85vh;
+  width: 90%;
+  margin-top: 180px;
+
+}
+
+.service-cards span {
+
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.service-cards span h3 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: 400;
+  color: #fff;
+
+}
+
+.service-cards span p {
+  text-align: center;
+  color: #ccb9b9;
+}
+
+.card-span-button {
+  background-color: #ada695f3;
+  height: 50px;
+  width: 15rem;
+  /* border-radius: 50px; */
+  border: none;
+  font-weight: 600;
+  font-size: large;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+}
+
+.service-cards span button {
+  --color: #ad0b44;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin-left: 100px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #fff;
+}
+
+.service-cards span button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.service-cards span button:hover {
+  color: #fff;
+}
+
+.service-cards span button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+}
+
+.service-cards span button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.service-cards span button:active:before {
+  /* background: #a30c41; */
+  transition: background 0s;
+}
+
+
+
+.service-icon {
+  display: inline-block;
+  position: relative;
+}
+
+.service-icon:hover .MuiSvgIcon-root {
+  animation: flip 1s ease-in-out forwards;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+
+.service-icon1 {
+  display: inline-block;
+  position: relative;
+}
+
+.service-icon1:hover .MuiSvgIcon-root {
+  animation: bounce 1s ease-in-out forwards;
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotateY(0px);
+  }
+
+  50% {
+    transform: rotateY(80px);
+  }
+
+  100% {
+    transform: rotateY(25px);
+  }
+}
+
+
+.service-icon2 {
+  display: inline-block;
+  position: relative;
+}
+
+.service-icon2:hover .MuiSvgIcon-root {
+  animation: rotate 1s ease-in-out forwards;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.service-icon3 {
+  display: inline-block;
+  position: relative;
+}
+
+.service-icon3:hover .MuiSvgIcon-root {
+  opacity: 0.8;
+  scale: 1.2;
+}
+
+.service-icon4 {
+  display: inline-block;
+  position: relative;
+}
+
+.service-icon4:hover .MuiSvgIcon-root {
+  transform: rotate(5deg);
+}
+
+.service-icon5 {
+  display: inline-block;
+  position: relative;
+}
+
+.service-icon5:hover .MuiSvgIcon-root {
+  scale: 1.1;
+  opacity: 0.5;
+}

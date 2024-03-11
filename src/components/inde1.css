@@ -4,6 +4,11 @@
     /* padding: 0; */
 }
 
+.active {
+    background-color: #52fc03;
+    font-weight: bold;
+    /* box-shadow: 0 5px 15px rgba(73, 246, 5, 0.997); */
+}
 
 .navbar-div {
     display: flex;
@@ -12,9 +17,15 @@
     flex-direction: column;
     cursor: pointer;
     height: 80px;
-    position: relative;
-    z-index: 1;
-   background-color: #5568b3;
+    /* position: relative; */
+    opacity: 0.9;
+    z-index: 3;
+    position: fixed;
+    background-color: #131212;
+    width: 100%;
+    height: 90px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 
@@ -24,34 +35,39 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    /* color: #fff; */
     list-style-type: none;
     text-decoration: none;
     height: 18px;
     padding: 12px;
     width: 120px;
-    color:#000;
+    color: #fcfbfb;
 }
 
-.nav-hover:hover {
-    background-color: #0840f7;
-    border-radius: 30px;
-    color: #fff;
 
 
-}
-
-.logo-conatiner{
-    height: 100px;
-    width: 80px;
-    margin: auto;
+.logo-conatiner {
+    height: 40px;
+    width: 190px;
+    object-fit: cover;
     display: flex;
-    justify-content: flex-start;
-    margin-right: 80px;
+    margin-right: 200px;
+    font-weight: 900;
+    padding: 10px;
+    opacity: 0.9;
+    font-size: 45px;
+    position: absolute;
+    background-color: #fff;
+
 }
 
 .ul-div-1 {
     display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 /* commented causing isue in floating bar  */

@@ -187,7 +187,7 @@ const Platform = () => {
         start: "0%",
         end: "20% ",
         scrub: 3,
-        markers: true,
+        // markers: true,
 
       }
 
@@ -277,7 +277,7 @@ const Platform = () => {
 
 
       </div>
-      <span><Footer /></span>
+      {/* <Footer /> */}
     </div>
 
   );
